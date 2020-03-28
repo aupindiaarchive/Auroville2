@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-slider.min.css">
+    
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/leaflet-search.css">
+    <link rel="stylesheet" href="css/landing.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="map"></div>
+            </div>
+            <div class="col-md-4">
+                <div id="content" class="content"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid  text-dark pb-4">
+            <!-- Range Slider -->
+            <div class="container w-100 ">
+                <input id="ex13" type="text" 
+                data-slider-ticks="[]" 
+                data-slider-ticks-snap-bounds="30"
+                data-slider-step="1"
+                data-slider-ticks-labels="[]"
+                
+                />
+            </div>
+    
+            <div id="placesCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row" id="item_one">
+                        </div>
+                    
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row" id="item_two">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row" id="item_three">
+                    
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#placesCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#placesCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/bootstrap-slider.min.js"></script>
+    <script src="js/leaflet-search.js"></script>
+
+    <script src="js/leaflet-timeline-slider.js"></script>
+    <script src="js/landing.js"></script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body, html{
+    margin:0px;
+    padding:0px;
+}
+
+.container-fluid, .row{
+    margin:0px;
+    padding:0px;
+}
+
+#map{
+    height: 65vh;
+    width:100%;
+    opacity: 1;
+}
+
+/* Set custom fonts */
+#content{
+    color:rgb(70, 70, 70);
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* position:fixed; */
+    overflow-y: scroll;
+    height: 65vh;
+}
+
+section {
+    width: 100%;
+    padding: 25px 50px;
+    line-height: 25px;
+    border-bottom: 1px solid #ddd;
+    opacity: 0.25;
+    font-size: 13px;
+}
+
+section:last-child{
+    margin-bottom: 200px;
+    border-bottom:none;
+}
+
+.active{
+    opacity: 1;
+}
+
+.col-md-8,.col-md-4, col-md-12{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-marker{
+    width:100px;
+}
+
+#images{
+    
+}
+
+.carousel-item img{
+    height:150px;
+}
+
+.slider.slider-horizontal{
+    width:100%;
+    margin-top: 12px;
+}
+::-webkit-scrollbar{
+    width:12px;
+    /* background-color: #2b4e81; */
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
+    border:1px solid;
+    border-color: #fafafa;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #2b4e81;
+    border-radius:5px;
+    margin:2px;
+}
+
+@media screen and (max-width: 768px){
+    .container-fluid{
+        margin:0%;
+        padding:0px;
+    }
+    #map{
+        height:67.5vh;
+        width: 100%;
+    }
+    #content section{
+        width:100%;
+    }
+}
