@@ -1,5 +1,5 @@
 // Initialize a map object
-var data_url = "../data/places.geojson";
+var data_url = "data/places.geojson";
 var imageContainer = $('#images');
 var yearSlider = $('#ex13').slider();
 var currentPlace = 'Upasana';
